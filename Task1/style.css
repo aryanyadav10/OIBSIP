@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: #5cdb95;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: #05386B;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+.grid-container {
+    max-width: 280px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+button {
+    border: none;
+}
+button:hover {
+    opacity: 80%;
+}
+.grid-item {
+    background-color: #05386B;
+    color: #5cdb95;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 15px 5px;
+    border: 1px solid #5cdb95;
+}
+.display {
+    font-size: 20px;
+    width: 280px;
+    padding: 30px;
+    border: none;
+    border-radius: 1px;
+    background-color: #fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.output .previous-operand {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+}
+  
+  .output .current-operand {
+    color: white;
+    font-size: 2.5rem;
+}
