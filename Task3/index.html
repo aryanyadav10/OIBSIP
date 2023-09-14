@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="to-do-list.png">
+</head>
+<body>
+    <h1>To Do List</h1>
+    <div class="con">
+        <form>
+            <div class="in">
+                <input class="titlein" type="text" placeholder="Write Title Here!" maxlength="20" required>
+                <input class="desin" type="text" placeholder="Write Short Description Here!" maxlength="50" required>
+                <button class="btn">Add To List</button>
+            </div>
+        </form>
+        <div class="container">
+            <div class="heading">
+                <div class="title">
+                    <h4>Title</h4>
+                </div>
+                <div class="des">
+                    <h4>Description</h4>
+                </div>
+                <div class="delete">
+                    <h4>Delete</h4>
+                </div>
+            </div>
+            <ul></ul>
+        </div>
+    </div>
+    <script defer src="main.js"></script>
+</body>
+</html>
